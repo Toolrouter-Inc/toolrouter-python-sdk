@@ -1,0 +1,29 @@
+{
+  "direct_client_id": "your-client-id-here",
+  "direct_api_key": "your-direct-api-key-here",
+  "direct_base_url": "https://api.toolrouter.ai/s",
+  "account_api_key": "your-account-api-key-here",
+  "account_base_url": "https://api.toolrouter.ai/v1",
+  "test_mode": "all",
+  "verbose": true,
+  "dry_run": false,
+  "timeout": 30.0,
+  "max_retries": 3,
+  "test_stack_name": "test-sdk-stack",
+  "test_server_id": "github-server",
+  "test_tool_name": "weather",
+  "test_tool_input": {
+    "location": "San Francisco",
+    "units": "metric"
+  },
+  "test_credentials": {
+    "api_key": "test-api-key",
+    "token": "test-token",
+    "username": "test-user"
+  },
+  "output_file": "test_results.json",
+  "log_level": "INFO",
+  "show_performance": true,
+  "cleanup_resources": true,
+  "test_schemas": ["openai", "anthropic", "default"]
+}
