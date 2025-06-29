@@ -2,6 +2,10 @@
 
 A comprehensive Python client for the ToolRouter API supporting both direct access and account-level operations with full async support and type safety.
 
+🔗 **Quick Links**:
+- [Access ToolRouter](https://app.toolrouter.ai)
+- [Browse All MCPs](https://www.toolrouter.ai/mcp)
+
 ## ✨ ToolRouter Key Features
 
 🚀 **Instant Integration** - Deploy Model Control Panels (MCPs) in seconds and seamlessly integrate with your AI agents
